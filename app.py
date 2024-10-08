@@ -38,8 +38,7 @@ os.environ['GIT_PYTHON_GIT_EXECUTABLE'] = 'C:/Program Files/Git'
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
 os.environ['LANGCHAIN_API_KEY'] = "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"
-os.environ['OPENAI_API_KEY'] = "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"
-
+openai_api_key = os.getenv("OPENAI_API_KEY")
 # Ignore warnings
 warnings.filterwarnings("ignore")
 
